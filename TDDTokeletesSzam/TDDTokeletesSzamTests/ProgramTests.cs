@@ -101,12 +101,6 @@ namespace TDDTokeletesSzam.Tests
             Assert.IsTrue(actual);
         }
 
-        [TestMethod()]
-        public void TokeletesETestNyolcEzerSzazHuszonNyolc()
-        {
-            int number = 8128;
-            bool actual = Program.tokeletesE(number);
-            Assert.IsTrue(actual);
-        }
+        
     }
 }
