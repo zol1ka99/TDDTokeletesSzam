@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDTokeletesSzam", "TDDTokeletesSzam\TDDTokeletesSzam.csproj", "{28358108-3400-4053-AF69-B5D0D879F8B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDTokeletesSzamTests", "TDDTokeletesSzamTests\TDDTokeletesSzamTests.csproj", "{7E064284-1DB0-4F8B-82BB-B7BD39A33CE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28358108-3400-4053-AF69-B5D0D879F8B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28358108-3400-4053-AF69-B5D0D879F8B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28358108-3400-4053-AF69-B5D0D879F8B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28358108-3400-4053-AF69-B5D0D879F8B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E064284-1DB0-4F8B-82BB-B7BD39A33CE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E064284-1DB0-4F8B-82BB-B7BD39A33CE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E064284-1DB0-4F8B-82BB-B7BD39A33CE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E064284-1DB0-4F8B-82BB-B7BD39A33CE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C362651-DB83-40A9-9187-583D33FE453A}
+	EndGlobalSection
+EndGlobal
