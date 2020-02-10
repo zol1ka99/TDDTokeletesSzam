@@ -17,16 +17,32 @@ namespace TesztelesVaros
 
         public bool EllenorizVarosNevMegfeleloE()
         {
-            if (EllenorizNagyBetuvelKezdodik())
+            if (!EllenorizNagyBetuvelKezdodik())
             {
                 throw new VarosNemNagyBetuvelKezdodik("Rossz a város, kezdje nagy betűvel!");
             }
+            if (!EllenorizVarosNemKisbetuvelFolytatodik())
+            {
+                throw new VarosNemKisbetuvelFolytatodik("Nem kisbetűvel folytatódik a város neve!");
+            }
+            return true;
+        }
+
+        private bool EllenorizVarosNemKisbetuvelFolytatodik()
+        {
             return true;
         }
 
         private bool EllenorizNagyBetuvelKezdodik()
         {
-            return true;
+            if (char.IsLower(varosnev[0]))
+            {
+                return false;
+            } else
+            {
+                return true;
+
+            }
         }
     }
 }

@@ -12,14 +12,37 @@ namespace TesztelesVaros.Tests
     public class VarosTaroloTests
     {
         [TestMethod()]
-        public void EllenorizVarosNevMegfeleloETestVarosNevNemNagyBetuvelKezdodik()
+        public void EllenorizVarosNevMegfeleloETestVarosNevNagyBetuvelKezdodik()
         {
-            VarosTarolo vt = new VarosTarolo("Szeged");
-            if (!vt.EllenorizVarosNevMegfeleloE())
+            try
             {
-                Assert.Fail("A város név nagy betűvel kezdődik mégsem dob hibát");
+                VarosTarolo vt = new VarosTarolo("Szeged");
+                if (!vt.EllenorizVarosNevMegfeleloE())
+                {
+                    
+                }
             }
-            Assert.Fail();
+            catch (Exception e)
+            {
+                Assert.Fail("A város név nagy betűvel kezdődik mégig hibát dob!");
+            }
+        }
+
+        [TestMethod()]
+        public void EllenorizVarosNevMegfeleloETestVarosNevMasodikKarakterKicsiE()
+        {
+            try
+            {
+                VarosTarolo vt = new VarosTarolo("Szeged");
+                if (!vt.EllenorizVarosNevMegfeleloE())
+                {
+
+                }
+            }
+            catch (Exception e)
+            {
+                Assert.Fail("A város név kis betűvel folytatódik mégig hibát dob!");
+            }
         }
     }
 }
