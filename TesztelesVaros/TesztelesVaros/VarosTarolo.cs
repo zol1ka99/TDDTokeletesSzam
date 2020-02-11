@@ -30,6 +30,20 @@ namespace TesztelesVaros
 
         private bool EllenorizVarosNemKisbetuvelFolytatodik()
         {
+            for (int i = 1; i < varosnev.Length; i++)
+            {
+                if (!char.IsLetter(varosnev[i]))
+                {
+                    return false;
+                }
+                else
+                {
+                    if (!char.IsLower(varosnev[i]))
+                    {
+                        return true;
+                    }
+                }
+            }
             return true;
         }
 

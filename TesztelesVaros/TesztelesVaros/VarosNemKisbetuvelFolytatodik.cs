@@ -4,7 +4,7 @@ using System.Runtime.Serialization;
 namespace TesztelesVaros
 {
     [Serializable]
-    internal class VarosNemKisbetuvelFolytatodik : Exception
+    public class VarosNemKisbetuvelFolytatodik : Exception
     {
         public VarosNemKisbetuvelFolytatodik()
         {

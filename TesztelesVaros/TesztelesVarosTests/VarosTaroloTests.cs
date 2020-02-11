@@ -19,13 +19,14 @@ namespace TesztelesVaros.Tests
                 VarosTarolo vt = new VarosTarolo("Szeged");
                 if (!vt.EllenorizVarosNevMegfeleloE())
                 {
-                    
                 }
             }
-            catch (Exception e)
+            catch (VarosNemNagyBetuvelKezdodik e)
             {
                 Assert.Fail("A város név nagy betűvel kezdődik mégig hibát dob!");
             }
+            catch (Exception)
+            { }
         }
 
         [TestMethod()]
@@ -36,13 +37,14 @@ namespace TesztelesVaros.Tests
                 VarosTarolo vt = new VarosTarolo("Szeged");
                 if (!vt.EllenorizVarosNevMegfeleloE())
                 {
-
                 }
             }
-            catch (Exception e)
+            catch (VarosNemKisbetuvelFolytatodik e)
             {
                 Assert.Fail("A város név kis betűvel folytatódik mégig hibát dob!");
             }
+            catch (Exception)
+            { }
         }
     }
 }

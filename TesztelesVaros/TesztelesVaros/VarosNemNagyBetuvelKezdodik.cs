@@ -4,7 +4,7 @@ using System.Runtime.Serialization;
 namespace TesztelesVaros
 {
     [Serializable]
-    internal class VarosNemNagyBetuvelKezdodik : Exception //Öröklés használata a kivétel kezeléshez
+    public class VarosNemNagyBetuvelKezdodik : Exception //Öröklés használata a kivétel kezeléshez
     {
         public VarosNemNagyBetuvelKezdodik()
         {
