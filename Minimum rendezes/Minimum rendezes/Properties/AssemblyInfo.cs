@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Rendezes")]
+[assembly: AssemblyTitle("Minimum rendezes")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Rendezes")]
+[assembly: AssemblyProduct("Minimum rendezes")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("4bc8d2ea-227c-44ca-a0c1-411ecd1d8518")]
+[assembly: Guid("9fde4120-809b-484d-bc67-d091d0d25ef3")]
 
 // Version information for an assembly consists of the following four values:
 //

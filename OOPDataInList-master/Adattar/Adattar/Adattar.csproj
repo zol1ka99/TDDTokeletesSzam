@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4BC8D2EA-227C-44CA-A0C1-411ECD1D8518}</ProjectGuid>
+    <ProjectGuid>{D8E9EE7E-FB27-4FF5-BA5C-7BAA0E81BC6D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Rendezes</RootNamespace>
-    <AssemblyName>Rendezes</AssemblyName>
+    <RootNamespace>Adattar</RootNamespace>
+    <AssemblyName>Adattar</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adatok.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
