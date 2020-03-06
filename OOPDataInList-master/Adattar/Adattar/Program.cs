@@ -115,6 +115,18 @@ namespace ListakbanLevoAdatokKezeleseOOPalapokon
                 }
             }*/
 
+            DiakAdatok da = new DiakAdatok();
+            List<Diak> diakok = da.getAdatok();
+
+            int fiukSzama = diakok.Count(x => x.getFerfi());
+            List<Diak> fiuk = diakok.FindAll(x => x.getFerfi());
+            List<Diak> lany = diakok.FindAll(x => x.getFerfi());
+            int legmagasabblany = diakok.FindAll(x => x.getNo()).Max(x => x.getMagassag());
+            int legmagasabbfiu = diakok.FindAll(x => x.getFerfi()).Max(x => x.getMagassag());
+            string name = diakok.FindAll(x => x.getMagassag() == legmagasabblany).getNev();
+
+
+            
 
 
             Console.ReadKey();
