@@ -39,7 +39,9 @@ namespace ListakbanLevoAdatokKezeleseOOPalapokon
              }
              */
 
-            FejVagyIrasKiserlet fik = new FejVagyIrasKiserlet();
+            /*
+             * //Fej vagy írás játék tanári programja
+             *FejVagyIrasKiserlet fik = new FejVagyIrasKiserlet();
             List<char> kiserletek = fik.getAdatok();
 
             int db = 0;
@@ -69,7 +71,7 @@ namespace ListakbanLevoAdatokKezeleseOOPalapokon
                 db = db + 1;
                 Console.WriteLine(minta);
             }
-
+            */
 
             Console.ReadKey();
         }
