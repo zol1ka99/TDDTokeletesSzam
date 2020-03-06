@@ -116,6 +116,7 @@ namespace ListakbanLevoAdatokKezeleseOOPalapokon
             }*/
 
 
+
             Console.ReadKey();
         }
     }
