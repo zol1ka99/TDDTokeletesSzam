@@ -37,9 +37,8 @@ namespace ListakbanLevoAdatokKezeleseOOPalapokon
              {
                  Console.Write(persons[i] + ",");
              }
-             */
+             
 
-            /*
              * //Fej vagy írás játék tanári programja
              *FejVagyIrasKiserlet fik = new FejVagyIrasKiserlet();
             List<char> kiserletek = fik.getAdatok();
@@ -72,6 +71,50 @@ namespace ListakbanLevoAdatokKezeleseOOPalapokon
                 Console.WriteLine(minta);
             }
             */
+
+            FejVagyIrasKiserlet fik = new FejVagyIrasKiserlet();
+            List<char> kiserletek = fik.getAdatok();
+
+            /*
+            int szamlalo = 0;
+            int db = 0;
+            foreach (char kiserlet in kiserletek)
+            {
+                if (kiserlet == 'F')
+                {
+                    db = db + 1;
+                }
+                else
+                {
+                    if (db == 3)
+                    {
+                        szamlalo = szamlalo + 1;
+                    }
+                    db = 0;
+                }
+            }
+            Console.WriteLine(szamlalo);
+
+
+
+            int max = 0;
+            int ffdb = 0;
+            foreach (char kiserlet in kiserletek)
+            {
+                if (kiserlet == 'F')
+                {
+                    ffdb = ffdb + 1;
+                }
+                else
+                {
+                    if (ffdb > max)
+                    {
+                        max = ffdb;
+                    }
+                    ffdb = 0;
+                }
+            }*/
+
 
             Console.ReadKey();
         }
